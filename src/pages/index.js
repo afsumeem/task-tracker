@@ -4,7 +4,14 @@ import { FaArrowRight } from "react-icons/fa";
 import { Button } from "react-bootstrap";
 import { useRouter } from "next/router";
 import styles from "@/styles/Home.module.css";
+
 export default function Home() {
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push("/Todo");
+  };
+
   return (
     <>
       <Head>
