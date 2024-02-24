@@ -227,7 +227,7 @@ const TodoLists = () => {
               {editTaskId === task.id && (
                 <Form
                   onSubmit={handleFormSubmit}
-                  style={{ backgroundColor: "#9d7add" }}
+                  style={{ backgroundColor: "#7788e6" }}
                   className=" p-2 my-2 shadow rounded"
                 >
                   <Form.Group className="mb-1" controlId="formBasicEmail">

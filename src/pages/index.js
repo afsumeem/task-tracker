@@ -24,7 +24,7 @@ export default function Home() {
         className={`${styles.todoContainer} d-flex justify-content-center align-items-center`}
       >
         <div className={`${styles.heroSection}`}>
-          {/* my todo title */}
+          {/* task tracker title */}
           <h3 className="fw-bold text-center mt-4" style={{ color: "#4455b8" }}>
             Task Tracker
           </h3>

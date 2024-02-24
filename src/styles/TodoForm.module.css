@@ -21,12 +21,12 @@
 }
 
 .addTaskBtn {
-  background-color: #533886;
+  background-color: #4455b8;
 
   border: none;
 }
 
 .addTaskBtn:hover {
-  background-color: #3d236d;
+  background-color: #4455b8;
   border: none;
 }

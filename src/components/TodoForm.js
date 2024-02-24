@@ -43,7 +43,7 @@ const TodoForm = () => {
   return (
     <div
       className=" p-2 my-3 shadow rounded"
-      style={{ backgroundColor: "#9d7add" }}
+      style={{ backgroundColor: "#7788e6" }}
     >
       <Form onSubmit={handleFormSubmit}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
