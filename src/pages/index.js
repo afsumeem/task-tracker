@@ -25,7 +25,9 @@ export default function Home() {
       >
         <div className={`${styles.heroSection}`}>
           {/* my todo title */}
-          <h3 className="fw-bold text-center mt-4">Task Tracker</h3>
+          <h3 className="fw-bold text-center mt-4" style={{ color: "#4455b8" }}>
+            Task Tracker
+          </h3>
 
           {/* banner image */}
           <Image
