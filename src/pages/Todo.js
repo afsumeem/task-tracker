@@ -10,7 +10,7 @@ const TodoPage = () => {
     >
       <div className={`${styles.heroSection} px-4 rounded-3`}>
         {/* my todo container */}
-        <h3 className="fw-bold text-center mt-4">MY TODO</h3>
+        <h3 className="fw-bold text-center mt-4">Task Tracker</h3>
         <div>
           <TodoForm />
           <TodoLists />
